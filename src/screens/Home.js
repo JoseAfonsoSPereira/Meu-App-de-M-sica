@@ -6,9 +6,12 @@ export default function Home({navigation}) {
   const [currentPlaying, setCurrentPlaying] = useState(null);
   const item={
     id: 1,
-    title: "Higtway to hell",
-    group: "AC/DC",
-    album_image: "https://i.scdn.co/image/ab67616d0000b273a69f71a8794e2d867a52f98f"
+    title: "Seven Nation Army",
+    group: "The White Stripes",
+    album_image: "https://i.scdn.co/image/ab67616d0000b273a69f71a8794e2d867a52f98f",
+    album: "Elephant",
+    year: 2003,
+    genre: "Rock",
   }
 
   return (

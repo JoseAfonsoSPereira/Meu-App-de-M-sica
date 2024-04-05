@@ -18,7 +18,7 @@ function HomeStackScreen() {
     );
 }
 
-function MainTabScreen() {
+export default function Routes() {
     return (
         <Tab.Navigator screenOptions={{
             headerShown: false,
@@ -49,10 +49,3 @@ function MainTabScreen() {
     );
 }
 
-export default function Routes() {
-    return (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="MainTab" component={MainTabScreen} />
-        </Stack.Navigator>
-    );
-}
